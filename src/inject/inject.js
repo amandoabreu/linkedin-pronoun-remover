@@ -1,6 +1,6 @@
 chrome.runtime.sendMessage({}, function(response) {
 	function removePs(){
-		var bs = document.getElementsByClassName('feed-shared-actor__supplementary-actor-info');
+		var bs = document.getElementsByClassName('update-components-actor__supplementary-actor-info');
 	    for (let b of bs){
 			if(!b.classList.contains('pronouns-removed')){
 				console.log(b.innerHTML);
